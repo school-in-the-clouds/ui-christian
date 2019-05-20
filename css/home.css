@@ -1,0 +1,43 @@
+.nav-bar {
+    display: flex;
+}
+
+.top-content {
+    display: flex;
+}
+
+.first-container {
+    display: flex;
+}
+
+.second-container {
+    display: flex;
+}
+
+.third-container {
+    display: flex;
+}
+
+.fourth-container {
+    display: flex;
+}
+
+.fifth-container {
+    display: flex;
+}
+
+.sixth-container {
+    display: flex;
+}
+
+@media only screen and (max-width: 800px) {
+    body {
+      background-color: green;
+    }
+  }
+
+@media only screen and (max-width: 500px) {
+    body {
+      background-color: lightblue;
+    }
+  }
