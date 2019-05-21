@@ -61,30 +61,110 @@
     flex-flow: column wrap;
     align-content: center;
     margin-left: 5%;
+    margin-right: 5%;
 }
 
 .second-container img {
     display: flex;
     align-content: center;
-    max-width: 80%;
-    width: 80%;
+    max-width: 100%;
+    width: 90%;
+    margin-right: 5%;
+    margin-left: 5%;
+    border-radius: 25px;
 }
 
 .third-container {
     margin-top: 10px; 
     display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    max-width: 100%;
+    width: 100%;
+    border-bottom: 5px solid $green;
+    padding-bottom: 10px;
+}
+
+.third-container img {
+    display: flex;
+    align-content: center;
+    max-width: 100%;
+    width: 90%;
+    margin-right: 5%;
+    margin-left: 5%;
+    border-radius: 25px;
+}
+
+.volunteer-div {
+    display: flex;
+    flex-flow: column wrap;
+    align-content: center;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 .fourth-container {
+    margin-top: 10px; 
     display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    max-width: 100%;
+    width: 100%;
+    border-bottom: 5px solid $green;
+    padding-bottom: 10px;
+}
+
+.student-div {
+    display: flex;
+    flex-flow: column wrap;
+    align-content: center;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.fourth-container img {
+    display: flex;
+    align-content: center;
+    max-width: 100%;
+    width: 90%;
+    margin-right: 5%;
+    margin-left: 5%;
+    border-radius: 25px;
 }
 
 .fifth-container {
+    margin-top: 10px; 
     display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    max-width: 100%;
+    width: 100%;
+    border-bottom: 5px solid $green;
+    padding-bottom: 10px;
+}
+
+.fifth-container img {
+    display: flex;
+    align-content: center;
+    max-width: 100%;
+    width: 90%;
+    margin-right: 5%;
+    margin-left: 5%;
+    border-radius: 25px;
+}
+
+.admin-div {
+    display: flex;
+    flex-flow: column wrap;
+    align-content: center;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 .sixth-container {
     display: flex;
+    text-align: center;
+    border-bottom: 5px solid $red;
 }
 
 @media #{$mobile} {
