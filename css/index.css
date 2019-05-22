@@ -86,6 +86,46 @@ table {
   color: white;
 }
 
+@media only screen and (max-width: 500px) {
+  .nav-bar {
+    flex-flow: column wrap;
+    align-items: center;
+    padding-bottom: 20px;
+  }
+
+  .logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.5rem;
+    padding: 0%;
+    border-bottom: 2px solid #DBFF33;
+  }
+
+  .main-nav {
+    display: flex;
+    flex-flow: column nowrap;
+    width: 90%;
+  }
+
+  .main-nav a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 2%;
+    font-size: 2rem;
+    border-bottom: 2px solid #DBFF33;
+  }
+
+  .login a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    padding-top: 20%;
+    padding-left: 10%;
+  }
+}
 h1 {
   font-size: 2.5rem;
   font-family: "Rubik", sans-serif;
@@ -290,45 +330,6 @@ button {
 }
 
 @media only screen and (max-width: 500px) {
-  .nav-bar {
-    flex-flow: column wrap;
-    align-items: center;
-    padding-bottom: 20px;
-  }
-
-  .logo {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 2.5rem;
-    padding: 0%;
-    border-bottom: 2px solid #DBFF33;
-  }
-
-  .main-nav {
-    display: flex;
-    flex-flow: column nowrap;
-    width: 90%;
-  }
-
-  .main-nav a {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding-bottom: 2%;
-    font-size: 2rem;
-    border-bottom: 2px solid #DBFF33;
-  }
-
-  .login a {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 2rem;
-    padding-top: 20%;
-    padding-left: 10%;
-  }
-
   .top-image {
     display: none;
   }
@@ -365,6 +366,47 @@ footer {
 
 footer p {
   color: white;
+}
+
+h1 {
+  font-size: 3rem;
+  font-family: "Rubik", sans-serif;
+}
+
+h2 {
+  font-size: 2rem;
+  font-family: "Rubik", sans-serif;
+}
+
+p {
+  font-size: 1.2rem;
+  font-family: "Rubik", sans-serif;
+}
+
+a {
+  font-size: 1.2rem;
+  font-family: "Rubik", sans-serif;
+}
+
+button {
+  font-family: "Rubik", sans-serif;
+}
+
+.top-header {
+  text-align: center;
+}
+
+.team {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.person {
+  display: flex;
+  flex-flow: column wrap;
+  padding: 3%;
+  margin-top: 1%;
 }
 
 /*# sourceMappingURL=index.css.map */

@@ -1,0 +1,34 @@
+h1 {
+    font-size: 3rem;
+    font-family: $rubik-font;
+}
+
+h2 {
+    font-size: 2rem;
+    font-family: $rubik-font;
+}
+p {
+    font-size: 1.2rem;
+    font-family: $rubik-font;
+}
+a {
+    font-size: 1.2rem;
+    font-family: $rubik-font;
+}
+ button {
+    font-family: $rubik-font;
+ }
+ .top-header {
+    text-align: center;
+}
+ .team {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+ }
+.person {
+    display: flex;
+    flex-flow: column wrap;
+    padding: 3%;
+    margin-top: 1%;
+}
