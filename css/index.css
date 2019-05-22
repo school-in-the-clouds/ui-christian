@@ -394,6 +394,7 @@ button {
 
 .top-header {
   text-align: center;
+  margin-top: 1%;
 }
 
 .team {
@@ -407,6 +408,18 @@ button {
   flex-flow: column wrap;
   padding: 3%;
   margin-top: 1%;
+}
+
+@media only screen and (max-width: 500px) {
+  .team {
+    max-width: 100%;
+    width: 100%;
+  }
+
+  .person {
+    max-width: 100%;
+    width: 100%;
+  }
 }
 
 /*# sourceMappingURL=index.css.map */

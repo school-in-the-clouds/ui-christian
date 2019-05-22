@@ -20,6 +20,7 @@ a {
  }
  .top-header {
     text-align: center;
+    margin-top: 1%;
 }
  .team {
     display: flex;
@@ -31,4 +32,14 @@ a {
     flex-flow: column wrap;
     padding: 3%;
     margin-top: 1%;
+}
+@media #{$mobile} {
+    .team {
+        max-width: 100%;
+        width: 100%;
+    }
+    .person {
+        max-width: 100%;
+        width: 100%;
+    }
 }
