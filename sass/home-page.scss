@@ -18,35 +18,6 @@ a {
  button {
     font-family: $rubik-font;
  }
-
-.nav-bar {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
-    align-items: center;
-    background-color: $red;
-    border-bottom: 10px solid $green;
-}
-.logo {
-    padding-left: 5%;
-    color: white;
-}
-.main-nav {
-    display: flex;
-    justify-content: space-evenly;
-}
-.main-nav a {
-    text-decoration: none;
-    padding: 1em;
-    color: white;
-}
-.login {
-    padding-right: 5%;
-}
-.login a {
-    text-decoration: none;
-    color: white;
-}
 .top-image {
     display: flex;
 }

@@ -52,30 +52,6 @@ table {
   border-spacing: 0;
 }
 
-h1 {
-  font-size: 2.5rem;
-  font-family: "Rubik", sans-serif;
-}
-
-h2 {
-  font-size: 2rem;
-  font-family: "Rubik", sans-serif;
-}
-
-p {
-  font-size: 1.2rem;
-  font-family: "Rubik", sans-serif;
-}
-
-a {
-  font-size: 1.2rem;
-  font-family: "Rubik", sans-serif;
-}
-
-button {
-  font-family: "Rubik", sans-serif;
-}
-
 .nav-bar {
   display: flex;
   flex-flow: row wrap;
@@ -108,6 +84,30 @@ button {
 .login a {
   text-decoration: none;
   color: white;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-family: "Rubik", sans-serif;
+}
+
+h2 {
+  font-size: 2rem;
+  font-family: "Rubik", sans-serif;
+}
+
+p {
+  font-size: 1.2rem;
+  font-family: "Rubik", sans-serif;
+}
+
+a {
+  font-size: 1.2rem;
+  font-family: "Rubik", sans-serif;
+}
+
+button {
+  font-family: "Rubik", sans-serif;
 }
 
 .top-image {
