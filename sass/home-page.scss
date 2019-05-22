@@ -11,6 +11,10 @@ p {
     font-size: 1.2rem;
     font-family: $rubik-font;
 }
+a {
+    font-size: 1.2rem;
+    font-family: $rubik-font;
+}
  button {
     font-family: $rubik-font;
  }
@@ -23,7 +27,6 @@ p {
     background-color: $red;
     border-bottom: 10px solid $green;
 }
-
 .logo {
     padding-left: 5%;
     color: white;
@@ -32,30 +35,24 @@ p {
     display: flex;
     justify-content: space-evenly;
 }
-
 .main-nav a {
     text-decoration: none;
     padding: 1em;
     color: white;
 }
-
 .login {
     padding-right: 5%;
 }
-
 .login a {
     text-decoration: none;
     color: white;
 }
-
 .top-image {
     display: flex;
 }
-
 .top-image img {
     max-width: 100%;
 }
-
 .first-container {
     display: flex;
     text-align: center;
@@ -63,7 +60,6 @@ p {
     line-height: 2.5;
     text-align: center;
 }
-
 .second-container {
     margin-top: 10px;
     display: flex;
@@ -76,7 +72,6 @@ p {
     line-height: 2.5;
     text-align: center;
 }
-
 .overview-div {
     display: flex;
     flex-flow: column wrap;
@@ -84,7 +79,6 @@ p {
     margin-left: 5%;
     margin-right: 5%;
 }
-
 .second-container img {
     display: flex;
     align-content: center;
@@ -94,7 +88,6 @@ p {
     margin-left: 5%;
     border-radius: 25px;
 }
-
 .third-container {
     margin-top: 10px; 
     display: flex;
@@ -107,7 +100,6 @@ p {
     line-height: 2.5;
     text-align: center;
 }
-
 .third-container button {
     border-radius: 25px;
     width: 30%;
@@ -115,7 +107,6 @@ p {
     color: white;
     font-size: 1rem;
 }
-
 .third-container img {
     display: flex;
     align-content: center;
@@ -125,7 +116,6 @@ p {
     margin-left: 5%;
     border-radius: 25px;
 }
-
 .volunteer-div {
     display: flex;
     flex-flow: column wrap;
@@ -133,7 +123,6 @@ p {
     margin-left: 5%;
     margin-right: 5%;
 }
-
 .fourth-container {
     margin-top: 10px; 
     display: flex;
@@ -146,7 +135,6 @@ p {
     line-height: 2.5;
     text-align: center;
 }
-
 .student-div {
     display: flex;
     flex-flow: column wrap;
@@ -154,7 +142,6 @@ p {
     margin-left: 5%;
     margin-right: 5%;
 }
-
 .fourth-container button {
     border-radius: 25px;
     width: 30%;
@@ -162,7 +149,6 @@ p {
     color: white;
     font-size: 1rem;
 }
-
 .fourth-container img {
     display: flex;
     align-content: center;
@@ -172,7 +158,6 @@ p {
     margin-left: 5%;
     border-radius: 25px;
 }
-
 .fifth-container {
     margin-top: 10px; 
     display: flex;
@@ -183,7 +168,6 @@ p {
     border-bottom: 5px solid $green;
     padding-bottom: 10px;
 }
-
 .fifth-container img {
     display: flex;
     align-content: center;
@@ -193,7 +177,6 @@ p {
     margin-left: 5%;
     border-radius: 25px;
 }
-
 .fifth-container button {
     border-radius: 25px;
     width: 30%;
@@ -201,7 +184,6 @@ p {
     color: white;
     font-size: 1rem;
 }
-
 .admin-div {
     display: flex;
     flex-flow: column wrap;
@@ -211,14 +193,12 @@ p {
     line-height: 2.5;
     text-align: center;
 }
-
 .sixth-container {
     display: flex;
     text-align: center;
     line-height: 2.5;
     margin-bottom: 40px;
 }
-
 .sixth-container button {
     border-radius: 25px;
     width:15%;
@@ -226,9 +206,63 @@ p {
     color: white;
     font-size: 1.2rem;
 }
-
 @media #{$mobile} {
-    
+    .nav-bar {
+        flex-flow: column wrap;
+        align-items: center;
+        padding-bottom: 20px;
+    }
+    .logo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 2.5rem;
+        padding: 0%;
+        border-bottom: 2px solid $green;
+    }
+    .main-nav {
+        display: flex;
+        flex-flow: column nowrap;
+        width: 90%;
+    }
+    .main-nav a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 2%;
+        font-size: 2rem;
+        border-bottom: 2px solid $green;
+    }
+    .login a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 2rem;
+        padding-top: 20%;
+        padding-left: 10%;
+    }
+    .top-image {
+        display: none;
+        // background: url(/ui-christian/images/tiny-top-pic.png) no-repeat;
+    }
+    .second-container {
+        flex-flow: column wrap;
+    }
+    .third-container {
+        flex-flow: column wrap;
+    }
+    .fourth-container {
+        flex-flow: column wrap;
+    }
+    .student-div button{
+        margin-bottom: 2%;
+    }
+    .fifth-container {
+        flex-flow: column wrap;
+    }
+    .sixth-container button{
+        width: 50%;
+    }
   }
 
 @media #{$tablet} {

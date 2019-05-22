@@ -67,6 +67,11 @@ p {
   font-family: "Rubik", sans-serif;
 }
 
+a {
+  font-size: 1.2rem;
+  font-family: "Rubik", sans-serif;
+}
+
 button {
   font-family: "Rubik", sans-serif;
 }
@@ -284,6 +289,74 @@ button {
   font-size: 1.2rem;
 }
 
+@media only screen and (max-width: 500px) {
+  .nav-bar {
+    flex-flow: column wrap;
+    align-items: center;
+    padding-bottom: 20px;
+  }
+
+  .logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.5rem;
+    padding: 0%;
+    border-bottom: 2px solid #DBFF33;
+  }
+
+  .main-nav {
+    display: flex;
+    flex-flow: column nowrap;
+    width: 90%;
+  }
+
+  .main-nav a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 2%;
+    font-size: 2rem;
+    border-bottom: 2px solid #DBFF33;
+  }
+
+  .login a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    padding-top: 20%;
+    padding-left: 10%;
+  }
+
+  .top-image {
+    display: none;
+  }
+
+  .second-container {
+    flex-flow: column wrap;
+  }
+
+  .third-container {
+    flex-flow: column wrap;
+  }
+
+  .fourth-container {
+    flex-flow: column wrap;
+  }
+
+  .student-div button {
+    margin-bottom: 2%;
+  }
+
+  .fifth-container {
+    flex-flow: column wrap;
+  }
+
+  .sixth-container button {
+    width: 50%;
+  }
+}
 footer {
   text-align: center;
   background-color: #990033;
