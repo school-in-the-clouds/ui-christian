@@ -166,6 +166,10 @@ button {
   text-align: center;
 }
 
+.first-container p {
+  margin: 10px;
+}
+
 .second-container {
   margin-top: 10px;
   display: flex;
@@ -408,6 +412,26 @@ button {
   flex-flow: column wrap;
   padding: 3%;
   margin-top: 1%;
+  max-width: 33%;
+  width: 33%;
+}
+
+.person img {
+  border-radius: 25px;
+  max-width: 100%;
+  width: 100%;
+}
+
+.person h2 {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-align: center;
+}
+
+.person p {
+  padding-bottom: 5px;
+  line-height: 2.5;
+  text-align: center;
 }
 
 @media only screen and (max-width: 500px) {
