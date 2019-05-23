@@ -1,0 +1,210 @@
+h1 {
+    font-size: 2.5rem;
+    font-family: $rubik-font;
+}
+
+h2 {
+    font-size: 2rem;
+    font-family: $rubik-font;
+}
+p {
+    font-size: 1.2rem;
+    font-family: $rubik-font;
+}
+a {
+    font-size: 1.2rem;
+    font-family: $rubik-font;
+}
+ button {
+    font-family: $rubik-font;
+ }
+.top-image {
+    display: flex;
+}
+.top-image img {
+    max-width: 100%;
+}
+.first-container {
+    display: flex;
+    text-align: center;
+    border-bottom: 5px solid $green;
+    line-height: 2.5;
+    text-align: center;
+}
+.first-container p {
+    margin: 10px;
+}
+.second-container {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    max-width: 100%;
+    width: 100%;
+    border-bottom: 5px solid $green;
+    padding-bottom: 10px;
+    line-height: 2.5;
+    text-align: center;
+}
+.overview-div {
+    display: flex;
+    flex-flow: column wrap;
+    align-content: center;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.second-container img {
+    display: flex;
+    align-content: center;
+    max-width: 100%;
+    width: 90%;
+    margin-right: 5%;
+    margin-left: 5%;
+    border-radius: 25px;
+}
+.third-container {
+    margin-top: 10px; 
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    max-width: 100%;
+    width: 100%;
+    border-bottom: 5px solid $green;
+    padding-bottom: 10px;
+    line-height: 2.5;
+    text-align: center;
+}
+.third-container button {
+    border-radius: 25px;
+    width: 30%;
+    background-color: $red;
+    color: white;
+    font-size: 1rem;
+}
+.third-container img {
+    display: flex;
+    align-content: center;
+    max-width: 100%;
+    width: 90%;
+    margin-right: 5%;
+    margin-left: 5%;
+    border-radius: 25px;
+}
+.volunteer-div {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.fourth-container {
+    margin-top: 10px; 
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    max-width: 100%;
+    width: 100%;
+    border-bottom: 5px solid $green;
+    padding-bottom: 10px;
+    line-height: 2.5;
+    text-align: center;
+}
+.student-div {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.fourth-container button {
+    border-radius: 25px;
+    width: 30%;
+    background-color: $red;
+    color: white;
+    font-size: 1rem;
+}
+.fourth-container img {
+    display: flex;
+    align-content: center;
+    max-width: 100%;
+    width: 90%;
+    margin-right: 5%;
+    margin-left: 5%;
+    border-radius: 25px;
+}
+.fifth-container {
+    margin-top: 10px; 
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    max-width: 100%;
+    width: 100%;
+    border-bottom: 5px solid $green;
+    padding-bottom: 10px;
+}
+.fifth-container img {
+    display: flex;
+    align-content: center;
+    max-width: 100%;
+    width: 90%;
+    margin-right: 5%;
+    margin-left: 5%;
+    border-radius: 25px;
+}
+.fifth-container button {
+    border-radius: 25px;
+    width: 30%;
+    background-color: $red;
+    color: white;
+    font-size: 1rem;
+}
+.admin-div {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    line-height: 2.5;
+    text-align: center;
+}
+.sixth-container {
+    display: flex;
+    text-align: center;
+    line-height: 2.5;
+    margin-bottom: 40px;
+}
+.sixth-container button {
+    border-radius: 25px;
+    width:15%;
+    background-color: $red;
+    color: white;
+    font-size: 1.2rem;
+}
+@media #{$mobile} {
+    .top-image {
+        display: none;
+        // background: url(/ui-christian/images/tiny-top-pic.png) no-repeat;
+    }
+    .second-container {
+        flex-flow: column wrap;
+    }
+    .third-container {
+        flex-flow: column wrap;
+    }
+    .fourth-container {
+        flex-flow: column wrap;
+    }
+    .student-div button{
+        margin-bottom: 2%;
+    }
+    .fifth-container {
+        flex-flow: column wrap;
+    }
+    .sixth-container button{
+        width: 50%;
+    }
+  }
+
+@media #{$tablet} {
+
+  }

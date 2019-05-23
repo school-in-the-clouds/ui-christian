@@ -1,0 +1,449 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.nav-bar {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #990033;
+  border-bottom: 10px solid #DBFF33;
+}
+
+.logo {
+  padding-left: 5%;
+  color: white;
+}
+
+.main-nav {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.main-nav a {
+  text-decoration: none;
+  padding: 1em;
+  color: white;
+}
+
+.login {
+  padding-right: 5%;
+}
+
+.login a {
+  text-decoration: none;
+  color: white;
+}
+
+@media only screen and (max-width: 500px) {
+  .nav-bar {
+    flex-flow: column wrap;
+    align-items: center;
+    padding-bottom: 20px;
+  }
+
+  .logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.5rem;
+    padding: 0%;
+    border-bottom: 2px solid #DBFF33;
+  }
+
+  .main-nav {
+    display: flex;
+    flex-flow: column nowrap;
+    width: 90%;
+  }
+
+  .main-nav a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 2%;
+    font-size: 2rem;
+    border-bottom: 2px solid #DBFF33;
+  }
+
+  .login a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    padding-top: 20%;
+    padding-left: 10%;
+  }
+}
+h1 {
+  font-size: 2.5rem;
+  font-family: "Rubik", sans-serif;
+}
+
+h2 {
+  font-size: 2rem;
+  font-family: "Rubik", sans-serif;
+}
+
+p {
+  font-size: 1.2rem;
+  font-family: "Rubik", sans-serif;
+}
+
+a {
+  font-size: 1.2rem;
+  font-family: "Rubik", sans-serif;
+}
+
+button {
+  font-family: "Rubik", sans-serif;
+}
+
+.top-image {
+  display: flex;
+}
+
+.top-image img {
+  max-width: 100%;
+}
+
+.first-container {
+  display: flex;
+  text-align: center;
+  border-bottom: 5px solid #DBFF33;
+  line-height: 2.5;
+  text-align: center;
+}
+
+.first-container p {
+  margin: 10px;
+}
+
+.second-container {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  align-content: center;
+  max-width: 100%;
+  width: 100%;
+  border-bottom: 5px solid #DBFF33;
+  padding-bottom: 10px;
+  line-height: 2.5;
+  text-align: center;
+}
+
+.overview-div {
+  display: flex;
+  flex-flow: column wrap;
+  align-content: center;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.second-container img {
+  display: flex;
+  align-content: center;
+  max-width: 100%;
+  width: 90%;
+  margin-right: 5%;
+  margin-left: 5%;
+  border-radius: 25px;
+}
+
+.third-container {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  align-content: center;
+  max-width: 100%;
+  width: 100%;
+  border-bottom: 5px solid #DBFF33;
+  padding-bottom: 10px;
+  line-height: 2.5;
+  text-align: center;
+}
+
+.third-container button {
+  border-radius: 25px;
+  width: 30%;
+  background-color: #990033;
+  color: white;
+  font-size: 1rem;
+}
+
+.third-container img {
+  display: flex;
+  align-content: center;
+  max-width: 100%;
+  width: 90%;
+  margin-right: 5%;
+  margin-left: 5%;
+  border-radius: 25px;
+}
+
+.volunteer-div {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.fourth-container {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  align-content: center;
+  max-width: 100%;
+  width: 100%;
+  border-bottom: 5px solid #DBFF33;
+  padding-bottom: 10px;
+  line-height: 2.5;
+  text-align: center;
+}
+
+.student-div {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.fourth-container button {
+  border-radius: 25px;
+  width: 30%;
+  background-color: #990033;
+  color: white;
+  font-size: 1rem;
+}
+
+.fourth-container img {
+  display: flex;
+  align-content: center;
+  max-width: 100%;
+  width: 90%;
+  margin-right: 5%;
+  margin-left: 5%;
+  border-radius: 25px;
+}
+
+.fifth-container {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  align-content: center;
+  max-width: 100%;
+  width: 100%;
+  border-bottom: 5px solid #DBFF33;
+  padding-bottom: 10px;
+}
+
+.fifth-container img {
+  display: flex;
+  align-content: center;
+  max-width: 100%;
+  width: 90%;
+  margin-right: 5%;
+  margin-left: 5%;
+  border-radius: 25px;
+}
+
+.fifth-container button {
+  border-radius: 25px;
+  width: 30%;
+  background-color: #990033;
+  color: white;
+  font-size: 1rem;
+}
+
+.admin-div {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  margin-left: 5%;
+  margin-right: 5%;
+  line-height: 2.5;
+  text-align: center;
+}
+
+.sixth-container {
+  display: flex;
+  text-align: center;
+  line-height: 2.5;
+  margin-bottom: 40px;
+}
+
+.sixth-container button {
+  border-radius: 25px;
+  width: 15%;
+  background-color: #990033;
+  color: white;
+  font-size: 1.2rem;
+}
+
+@media only screen and (max-width: 500px) {
+  .top-image {
+    display: none;
+  }
+
+  .second-container {
+    flex-flow: column wrap;
+  }
+
+  .third-container {
+    flex-flow: column wrap;
+  }
+
+  .fourth-container {
+    flex-flow: column wrap;
+  }
+
+  .student-div button {
+    margin-bottom: 2%;
+  }
+
+  .fifth-container {
+    flex-flow: column wrap;
+  }
+
+  .sixth-container button {
+    width: 50%;
+  }
+}
+footer {
+  text-align: center;
+  background-color: #990033;
+  padding: 10px;
+}
+
+footer p {
+  color: white;
+}
+
+h1 {
+  font-size: 3rem;
+  font-family: "Rubik", sans-serif;
+}
+
+h2 {
+  font-size: 2rem;
+  font-family: "Rubik", sans-serif;
+}
+
+p {
+  font-size: 1.2rem;
+  font-family: "Rubik", sans-serif;
+}
+
+a {
+  font-size: 1.2rem;
+  font-family: "Rubik", sans-serif;
+}
+
+button {
+  font-family: "Rubik", sans-serif;
+}
+
+.top-header {
+  text-align: center;
+  margin-top: 1%;
+}
+
+.team {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.person {
+  display: flex;
+  flex-flow: column wrap;
+  padding: 3%;
+  margin-top: 1%;
+  max-width: 33%;
+  width: 33%;
+}
+
+.person img {
+  border-radius: 25px;
+  max-width: 100%;
+  width: 100%;
+}
+
+.person h2 {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-align: center;
+}
+
+.person p {
+  padding-bottom: 5px;
+  line-height: 2.5;
+  text-align: center;
+}
+
+@media only screen and (max-width: 500px) {
+  .team {
+    max-width: 100%;
+    width: 100%;
+  }
+
+  .person {
+    max-width: 100%;
+    width: 100%;
+  }
+}
+
+/*# sourceMappingURL=index.css.map */

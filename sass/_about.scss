@@ -1,0 +1,62 @@
+h1 {
+    font-size: 3rem;
+    font-family: $rubik-font;
+}
+
+h2 {
+    font-size: 2rem;
+    font-family: $rubik-font;
+}
+p {
+    font-size: 1.2rem;
+    font-family: $rubik-font;
+}
+a {
+    font-size: 1.2rem;
+    font-family: $rubik-font;
+}
+ button {
+    font-family: $rubik-font;
+ }
+ .top-header {
+    text-align: center;
+    margin-top: 1%;
+}
+ .team {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+ }
+.person {
+    display: flex;
+    flex-flow: column wrap;
+    padding: 3%;
+    margin-top: 1%;
+    max-width: 33%;
+    width: 33%
+}
+.person img {
+    border-radius: 25px;
+    max-width: 100%;
+    width: 100%;
+}
+.person h2 {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+}
+.person p {
+    padding-bottom: 5px;
+    line-height: 2.5;
+    text-align: center;
+}
+@media #{$mobile} {
+    .team {
+        max-width: 100%;
+        width: 100%;
+    }
+    .person {
+        max-width: 100%;
+        width: 100%;
+    }
+}
