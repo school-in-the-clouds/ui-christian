@@ -1,13 +1,7 @@
-const headerClicked = document.querySelector('.top-header');
+const team = [{"name": "Maks", "role": "lead", "favorite_lang": "Javascript"},
+{"name": "Bryce", "role": "UI design", "favorite_lang": "css"},
+{"name": "Brandon", "role": "Back-end", "favorite_lang": "React"},]
 
-headerClicked.addEventListener('click', function(eventObject){
-    headerClicked.style.color = '#990033';
-});
-
-const closure = 'closure cuz we have to';
-function returnClosure () {
-  return closure;
-}
-returnClosure();
-
-console.log(returnClosure);
+let lang = [];
+team.forEach(team => lang.push( `${team.favorite_lang}`));
+console.log(lang);
