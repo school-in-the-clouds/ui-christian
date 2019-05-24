@@ -18,11 +18,15 @@ a {
  button {
     font-family: $rubik-font;
  }
+ body {
+    max-width: 1500px;
+    margin: 0 auto;
+ }
 .top-image {
     display: flex;
 }
 .top-image img {
-    max-width: 100%;
+   max-width: 100%;
 }
 .first-container {
     display: flex;

@@ -150,6 +150,11 @@ button {
   font-family: "Rubik", sans-serif;
 }
 
+body {
+  max-width: 1500px;
+  margin: 0 auto;
+}
+
 .top-image {
   display: flex;
 }
